@@ -25,12 +25,12 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/deploy\/home.html" : {
+    "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/home.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
     "\/deploy\/info.html" : {
@@ -52,12 +52,28 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/html\/home.kit" : {
+    "\/dev\/html\/global\/head.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/html\/global\/head.html",
+      "oF" : 0
+    },
+    "\/dev\/html\/global\/scripts.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/html\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/html\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/home.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
     "\/dev\/html\/info.kit" : {
@@ -69,7 +85,7 @@
       "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
