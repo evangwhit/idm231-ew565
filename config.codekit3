@@ -25,6 +25,245 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/deploy\/css\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Black.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Black.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BlackEx.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BlackEx.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BlackExObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BlackExObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BlackObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BlackObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Bold.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Bold.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BoldCn.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BoldCn.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BoldCnObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BoldCnObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BoldEx.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BoldEx.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BoldExObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BoldExObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BoldObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-BoldObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Cn.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Cn.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-CnObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-CnObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Ex.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Ex.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-ExObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-ExObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Light.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Light.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-LightCn.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-LightCn.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-LightCnObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-LightCnObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-LightObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-LightObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-LightUltraCn.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-LightUltraCn.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Obl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Obl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-ThinUltraCn.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-ThinUltraCn.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-UltraCn.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-UltraCn.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-XBlack.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-XBlack.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-XBlackEx.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-XBlackEx.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-XBlackExObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-XBlackExObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd-XBlackObl.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd-XBlackObl.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/fonts\/UniversLTStd.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd.otf",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/plant1.webp" : {
+      "ft" : 8388608,
+      "iS" : 69470,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/plant1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -95,7 +334,7 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/scss\/global\/formatting\/_normalize.scss" : {
+    "\/dev\/scss\/global\/_normalize.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -104,8 +343,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/global\/formatting\/_normalize.css",
+      "oAP" : "\/dev\/scss\/global\/_normalize.css",
       "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/styles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
