@@ -127,11 +127,18 @@ section{
     transform: rotate(-90deg);
 }
 
-
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0 calc(3 *var(--Rythm));
+}
 form{
     border-bottom: 2px solid #000;
     background-color: var(--Cream);
     padding: var(--Rythm) 0;
+    max-width: 100%;
 
     display: flex;
     align-items: end;
@@ -141,7 +148,7 @@ form{
         flex-direction: column;
 
         input{
-            padding: 0 var(--Rythm);
+            padding: calc(0.3*var(--Rythm)) var(--Rythm) 0;
             height: calc(3*var(--Rythm));
             color-scheme: dark;
             background-color: var(--Green);
@@ -153,11 +160,22 @@ form{
     .submit_btn {
         button{
             margin-left: calc(1*var(--Rythm));
-            padding: 0 var(--Rythm);
+            padding: calc(0.3*var(--Rythm)) var(--Rythm) 0;
             height: calc(3*var(--Rythm));
             background-color: var(--Cream);
             border: 2px solid #000;
+
+            &:hover {
+                background-color: #00823F33;
+                cursor: pointer;
+            }
         }
+
+
     }
 }
 
+
+#main_container{
+    margin-top: calc(10*var(--Rythm));
+}

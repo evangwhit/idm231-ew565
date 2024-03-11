@@ -149,8 +149,6 @@ function build_HTML() {
                         body_copy_p.appendChild(plant_description); // add actual description
 
     });
-
-    console.log('success');
 }
 
 
@@ -199,5 +197,78 @@ function hide_info() {
 }
 
 
+function birthday_calc(date_real) {
+
+    let plant_sign = 'undefined';
+    let month = Number(date_real.month);
+    let day = Number(date_real.day);
+    
+
+    if ((month === 12 && day >= 22) || (month === 1 && day <= 19)) {
+        plant_sign = 'Spider Plant';
+        console.log('this is working');
+      } else if ((month === 11 && day >= 22) || (month === 12 && day <= 21)) {
+        plant_sign = 'Snake Plant'
+      } else if ((month === 10 && day >= 24) || (month === 11 && day <= 21)) {
+        plant_sign = 'Pothos'
+      } else if ((month === 9 && day >= 23) || (month === 10 && day <= 23)) {
+        plant_sign = 'ZZ Plant'
+      } else if ((month === 8 && day >= 23) || (month === 9 && day <= 22)) {
+        plant_sign = 'Peace Lily'
+      } else if ((month === 7 && day >= 23) || (month === 8 && day <= 22)) {
+        plant_sign = 'Rubber Plant'
+      } else if ((month === 6 && day >= 22) || (month === 7 && day <= 22)) {
+        plant_sign = 'Fiddle Leaf Fig'
+      } else if ((month === 5 && day >= 21) || (month === 6 && day <= 21)) {
+        plant_sign = 'Aloe Vera'
+      } else if ((month === 4 && day >= 20) || (month === 5 && day <= 20)) {
+        plant_sign = 'Monstera Deliciosa'
+      } else if ((month === 3 && day >= 21) || (month === 4 && day <= 19)) {
+        plant_sign = 'Succulents'
+      } else if ((month === 2 && day >= 19) || (month === 3 && day <= 20)) {
+        plant_sign = 'Philodendron'
+      } else if ((month === 1 && day >= 20) || (month === 2 && day <= 18)) {
+        plant_sign = 'Chinese Money Plant'
+      }
+    console.log(month);
+    console.log(day);
+    console.log(plant_sign);
+
+    return plant_sign;
+}
+
+
+function scroll_plant(birthday) {
+    // scroll to plant that has the same name as "birhday"
+}
+function submit_form() {
+    const form = document.querySelector('form');
+    const submit_btn = (form.elements['submit_btn']);
+    
+    submit_btn.addEventListener('click', (event) => {
+        event.preventDefault();
+
+        let date = (form.elements['birthday'].value);
+        console.log(date);
+        
+        function date_object(og_date) {
+            
+            let date_real = {
+                year: og_date[0],
+                month: og_date[1],
+                day: og_date[2]
+            }
+            return date_real;
+        }
+    
+        const birthday = birthday_calc(date_object(date.split('-')));
+
+        scroll_plant(birthday);
+    });
+}
+
+
+
 build_HTML();
 hide_info();
+submit_form();
