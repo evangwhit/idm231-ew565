@@ -9,6 +9,8 @@
     --Rythm: 1rem;
 
     --Black: #1F1F1F;
+    --Cream: #F3EFE6;
+    --Green: #073B1E;
 }
 
 //Typography
@@ -26,6 +28,7 @@
     
     body{
         font-family: Univers, sans-serif;
+        background-color: var(--Cream);
     }
 
     h1{
@@ -124,4 +127,37 @@ section{
     transform: rotate(-90deg);
 }
 
+
+form{
+    border-bottom: 2px solid #000;
+    background-color: var(--Cream);
+    padding: var(--Rythm) 0;
+
+    display: flex;
+    align-items: end;
+
+    .date_input{
+        display: flex;
+        flex-direction: column;
+
+        input{
+            padding: 0 var(--Rythm);
+            height: calc(3*var(--Rythm));
+            color-scheme: dark;
+            background-color: var(--Green);
+            color: var(--Cream);
+            border: 0;
+        }
+    }
+
+    .submit_btn {
+        button{
+            margin-left: calc(1*var(--Rythm));
+            padding: 0 var(--Rythm);
+            height: calc(3*var(--Rythm));
+            background-color: var(--Cream);
+            border: 2px solid #000;
+        }
+    }
+}
 

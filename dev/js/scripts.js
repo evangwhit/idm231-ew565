@@ -153,7 +153,6 @@ function build_HTML() {
     console.log('success');
 }
 
-build_HTML();
 
 
 function hide_info() {
@@ -194,25 +193,11 @@ function hide_info() {
 
                 button.classList.remove('rotate');
                 info.classList.add('hidden');
-
             }
         });
     });
-
-    // buttons.forEach(button => {
-    //     button.addEventListener('click', () => {
-    //         if (!button.classList.contains('rotate')) {
-    //             buttons.forEach(button1 => {
-    //                 button1.classList.remove('rotate');
-    //                 button.classList.add('rotate');
-
-    //                 info.classList.remove('hidden');
-    //             });
-    //         } else {
-    //             button.classList.remove('rotate');
-    //         }
-    //     });
-    // });
 }
 
+
+build_HTML();
 hide_info();
