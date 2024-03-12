@@ -25,6 +25,110 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/assets\/Death-1.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-1.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-2.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-2.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-3.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-3.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-4.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-4.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-5.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-5.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-6.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-6.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-7.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-7.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-8.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-8.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-9.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-9.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-10.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-10.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-11.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-11.mov",
+      "oF" : 0
+    },
+    "\/assets\/Death-12.mov" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Death-12.mov",
+      "oF" : 0
+    },
+    "\/assets\/Lego Star Wars_ The Complete Saga - All Death Sounds.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/Lego Star Wars_ The Complete Saga - All Death Sounds.mp3",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -36,41 +140,6 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/deploy\/deploy-assets\/Aloe.webp" : {
-      "ft" : 8388608,
-      "iS" : 345084,
-      "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/Aloe.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/deploy\/deploy-assets\/chinese-money.webp" : {
-      "ft" : 8388608,
-      "iS" : 69470,
-      "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/chinese-money.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/deploy\/deploy-assets\/fiddle-leaf.jpg" : {
-      "ft" : 16384,
-      "iS" : 234679,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/fiddle-leaf.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     },
     "\/deploy\/deploy-assets\/fonts\/UniversLTStd-Black.otf" : {
       "cB" : 0,
@@ -288,12 +357,47 @@
       "oAP" : "\/deploy\/deploy-assets\/fonts\/UniversLTStd.otf",
       "oF" : 0
     },
-    "\/deploy\/deploy-assets\/lily.jpg" : {
+    "\/deploy\/deploy-assets\/images\/Aloe.webp" : {
+      "ft" : 8388608,
+      "iS" : 345084,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/images\/Aloe.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/deploy-assets\/images\/chinese-money.webp" : {
+      "ft" : 8388608,
+      "iS" : 69470,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/images\/chinese-money.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/deploy-assets\/images\/fiddle-leaf.jpg" : {
+      "ft" : 16384,
+      "iS" : 234679,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/images\/fiddle-leaf.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/deploy-assets\/images\/lily.jpg" : {
       "ft" : 16384,
       "iS" : 310516,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/lily.jpg",
+      "oAP" : "\/deploy\/deploy-assets\/images\/lily.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -301,47 +405,47 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/deploy-assets\/monstera.webp" : {
+    "\/deploy\/deploy-assets\/images\/monstera.webp" : {
       "ft" : 8388608,
       "iS" : 71300,
       "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/monstera.webp",
+      "oAP" : "\/deploy\/deploy-assets\/images\/monstera.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/deploy-assets\/Philodendron.jpg" : {
+    "\/deploy\/deploy-assets\/images\/Philodendron.jpg" : {
       "ft" : 16384,
       "iS" : 209297,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/Philodendron.jpg",
+      "oAP" : "\/deploy\/deploy-assets\/images\/Philodendron.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/deploy-assets\/plant1.webp" : {
+    "\/deploy\/deploy-assets\/images\/plant1.webp" : {
       "ft" : 8388608,
       "iS" : 69470,
       "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/plant1.webp",
+      "oAP" : "\/deploy\/deploy-assets\/images\/plant1.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/deploy-assets\/pothos.jpg" : {
+    "\/deploy\/deploy-assets\/images\/pothos.jpg" : {
       "ft" : 16384,
       "iS" : 124155,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/pothos.jpg",
+      "oAP" : "\/deploy\/deploy-assets\/images\/pothos.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -349,23 +453,23 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/deploy-assets\/rubber-plant.webp" : {
+    "\/deploy\/deploy-assets\/images\/rubber-plant.webp" : {
       "ft" : 8388608,
       "iS" : 403752,
       "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/rubber-plant.webp",
+      "oAP" : "\/deploy\/deploy-assets\/images\/rubber-plant.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/deploy-assets\/snake.jpg" : {
+    "\/deploy\/deploy-assets\/images\/snake.jpg" : {
       "ft" : 16384,
       "iS" : 177186,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/snake.jpg",
+      "oAP" : "\/deploy\/deploy-assets\/images\/snake.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -373,12 +477,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/deploy-assets\/spider.jpg" : {
+    "\/deploy\/deploy-assets\/images\/spider.jpg" : {
       "ft" : 16384,
       "iS" : 1675104,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/spider.jpg",
+      "oAP" : "\/deploy\/deploy-assets\/images\/spider.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -386,27 +490,123 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/deploy-assets\/succulents.webp" : {
+    "\/deploy\/deploy-assets\/images\/succulents.webp" : {
       "ft" : 8388608,
       "iS" : 58758,
       "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/succulents.webp",
+      "oAP" : "\/deploy\/deploy-assets\/images\/succulents.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/deploy-assets\/zz-plant.webp" : {
+    "\/deploy\/deploy-assets\/images\/zz-plant.webp" : {
       "ft" : 8388608,
       "iS" : 359432,
       "oA" : 0,
-      "oAP" : "\/deploy\/deploy-assets\/zz-plant.webp",
+      "oAP" : "\/deploy\/deploy-assets\/images\/zz-plant.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-1.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-1.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-2.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-2.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-3.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-3.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-4.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-4.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-5.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-5.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-6.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-6.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-7.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-7.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-8.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-8.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-9.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-9.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-10.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-10.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-11.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-11.mp3",
+      "oF" : 0
+    },
+    "\/deploy\/deploy-assets\/sounds\/Death-12.mp3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/deploy-assets\/sounds\/Death-12.mp3",
+      "oF" : 0
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
