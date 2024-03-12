@@ -155,7 +155,6 @@ const sections = document.querySelectorAll('section');
 const buttons = document.querySelectorAll('button');
 const infos = document.querySelectorAll('.info');
 const inners = document.querySelectorAll('.inner');
-
 const audio_element = document.querySelector('audio');
 
 function play_audio(audio_element, src) {
@@ -165,7 +164,8 @@ function play_audio(audio_element, src) {
     audio_element.play();
 }
 
-function open_card([button,info,inner,plant_name]) {
+
+function open_card([button, info, inner, plant_name]) {
     inner.style.transitionDelay = '0.3s';
     button.classList.add('rotate');
     info.classList.remove('hidden');
