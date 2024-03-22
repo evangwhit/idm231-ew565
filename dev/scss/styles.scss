@@ -215,7 +215,7 @@ form{
     background-color: rgba($color: #000000, $alpha: .6);
     backdrop-filter: blur(4px);
     z-index: 100;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 
