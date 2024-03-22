@@ -11,6 +11,7 @@
     --Black: #1F1F1F;
     --Cream: #F3EFE6;
     --Green: #073B1E;
+    --Cream_hover: #EDE5D3;
 }
 
 //Typography
@@ -61,14 +62,23 @@ section{
 .line{
     width: 100%;
     border-bottom: 2px solid var(--Black);
-    padding: 0;
+    padding: var(--Rythm) var(--Rythm) 0;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    &:hover {
+        background-color: var(--Cream_hover);
+        cursor: pointer;
+    }
+
     button{
-       
+       min-height: 48px;
+       min-width: 48px;
+       &:hover {
+        cursor: pointer;
+    }
     }
 }
     
@@ -182,4 +192,5 @@ form{
 
 #main_container{
     margin-top: calc(10*var(--Rythm));
+    margin-bottom: calc(30*var(--Rythm));
 }

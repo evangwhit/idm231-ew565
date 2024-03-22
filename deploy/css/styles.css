@@ -316,6 +316,7 @@ template {
   --Black: #1F1F1F;
   --Cream: #F3EFE6;
   --Green: #073B1E;
+  --Cream_hover: #EDE5D3;
 }
 
 @font-face {
@@ -356,11 +357,23 @@ audio {
 .line {
   width: 100%;
   border-bottom: 2px solid var(--Black);
-  padding: 0;
+  padding: var(--Rythm) var(--Rythm) 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.line:hover {
+  background-color: var(--Cream_hover);
+  cursor: pointer;
+}
+.line button {
+  min-height: 48px;
+  min-width: 48px;
+}
+.line button:hover {
+  cursor: pointer;
+}
+
 .info {
   height: auto;
   display: grid;
@@ -456,4 +469,5 @@ form .submit_btn button:hover {
 
 #main_container {
   margin-top: calc(10 * var(--Rythm));
+  margin-bottom: calc(30 * var(--Rythm));
 }

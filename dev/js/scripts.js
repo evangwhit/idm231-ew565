@@ -207,12 +207,13 @@ function close_all_cards() {
 function card_clicks() {
     
     sections.forEach(section => {
+        const full_card = section.querySelector('.line');
         const button = section.querySelector('button');
         const info = section.querySelector('.info');
         const inner = section.querySelector('.inner');
         const plant_name = section.classList.value.replace(/_/g, ' ');
 
-        button.addEventListener('click', () => { 
+        full_card.addEventListener('click', () => { 
             if (!button.classList.contains('rotate')) { // this is for opening the section
 
                 close_all_cards();
@@ -297,12 +298,21 @@ function submit_form() {
         const date_plant = document.querySelector(`.${class_by_date}`); // finds the element that matches class and plant name
 
         if (date_plant) {
+            close_all_cards();
             
-            date_plant.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
+            setTimeout(() => {
+                date_plant.scrollIntoView({behavior: 'smooth'}, true);
+            }, 1000);
 
-            });
+            setTimeout(() => {
+                open_card([button, info, inner, plant_by_date]); // Resolve the promise after the timeout
+            }, 1100); // Adjust the timeout as needed based on your animation duration
+
+            setTimeout(() => {
+                window.scrollBy({
+                    top: -120,
+                    behavior: 'smooth'});
+            }, 2000);
 
             const button = date_plant.querySelector('button');
             const info = date_plant.querySelector('.info');
@@ -310,10 +320,8 @@ function submit_form() {
 
             console.log(plant_by_date + ' = plant_by_date');
 
-            close_all_cards();
-            setTimeout(() => {
-                open_card([button, info, inner, plant_by_date]); // Resolve the promise after the timeout
-            }, 700); // Adjust the timeout as needed based on your animation duration
+           
+           
         } 
         
         else {
