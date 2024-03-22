@@ -147,13 +147,30 @@ header{
     left: 0px;
     width: 100%;
     padding: 0 calc(3 *var(--Rythm));
-}
-form{
+
     border-bottom: 2px solid #000;
     background-color: var(--Cream);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .info-btn {
+        border: 0px;
+        background-color: transparent;
+        height: 40px;
+        width: 40px;
+        margin-top: 18px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+  
+}
+
+form{
     padding: var(--Rythm) 0;
     max-width: 100%;
-
     display: flex;
     align-items: end;
 
@@ -189,6 +206,51 @@ form{
     }
 }
 
+.help-info{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    background-color: rgba($color: #000000, $alpha: .6);
+    backdrop-filter: blur(4px);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div{
+        padding: calc(var(--Rythm)*4) calc(var(--Rythm)*3) calc(var(--Rythm)*2);
+        background-color: var(--Cream);
+        max-width: calc(var(--Rythm)*22);
+        display: flex;
+        flex-direction: column;
+
+        h2{
+            margin: 0;
+            padding: 0;
+        }
+
+        p{
+            margin-top: var(--Rythm);
+            padding: 0;
+        }
+
+        button{
+            margin-top: calc(var(--Rythm)*2);
+            padding: calc(var(--Rythm)*0.7) calc(var(--Rythm)*2) calc(var(--Rythm)*0.5);
+            align-self: center;
+            background-color: transparent;
+            border: 2px solid #000;
+
+            &:hover{
+                background-color: var(--Cream_hover);
+                cursor: pointer;
+            }
+            
+        }
+    }
+}
 
 #main_container{
     margin-top: calc(10*var(--Rythm));

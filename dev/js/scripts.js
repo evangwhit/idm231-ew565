@@ -331,6 +331,22 @@ function submit_form() {
     });
 }
 
+function handle_moreinfo() {
+    const aside = document.querySelector('.help-info');
+    const info_btn = document.querySelector('.info-btn'); 
+
+    function hideAside() {
+        aside.style.display = 'none';
+    }
+    // Function to show the aside
+    function showAside() {
+        aside.style.display = 'flex';
+    }
+    // Event listener for hiding the aside when clicked
+    aside.addEventListener('click', hideAside);
+    // Event listener for showing the aside when info_btn is clicked
+    info_btn.addEventListener('click', showAside);
+}
 
 function card_interactions() { 
     card_clicks();
@@ -338,5 +354,5 @@ function card_interactions() {
 }
 
 
-
 card_interactions();
+handle_moreinfo();

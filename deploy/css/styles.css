@@ -433,11 +433,24 @@ header {
   left: 0px;
   width: 100%;
   padding: 0 calc(3 * var(--Rythm));
+  border-bottom: 2px solid #000;
+  background-color: var(--Cream);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .info-btn {
+  border: 0px;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  margin-top: 18px;
+}
+header .info-btn:hover {
+  cursor: pointer;
 }
 
 form {
-  border-bottom: 2px solid #000;
-  background-color: var(--Cream);
   padding: var(--Rythm) 0;
   max-width: 100%;
   display: flex;
@@ -464,6 +477,46 @@ form .submit_btn button {
 }
 form .submit_btn button:hover {
   background-color: rgba(0, 130, 63, 0.2);
+  cursor: pointer;
+}
+
+.help-info {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.help-info div {
+  padding: calc(var(--Rythm) * 4) calc(var(--Rythm) * 3) calc(var(--Rythm) * 2);
+  background-color: var(--Cream);
+  max-width: calc(var(--Rythm) * 22);
+  display: flex;
+  flex-direction: column;
+}
+.help-info div h2 {
+  margin: 0;
+  padding: 0;
+}
+.help-info div p {
+  margin-top: var(--Rythm);
+  padding: 0;
+}
+.help-info div button {
+  margin-top: calc(var(--Rythm) * 2);
+  padding: calc(var(--Rythm) * 0.7) calc(var(--Rythm) * 2) calc(var(--Rythm) * 0.5);
+  align-self: center;
+  background-color: transparent;
+  border: 2px solid #000;
+}
+.help-info div button:hover {
+  background-color: var(--Cream_hover);
   cursor: pointer;
 }
 
